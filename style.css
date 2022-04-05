@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(43, 40, 40);
+    color: #fff;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: block;
+}
+
+h2 {
+    font-size: 7vh;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lista-cadastro {
+    margin: 50px;
+    text-align: center;
+
+}
+
+input {
+    width: 20%;
+    height: 7vh;
+    border-radius: 10px;
+    border-style: none;
+    margin-right: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 3vh;
+
+}
+
+input::placeholder {
+    color: black;
+}
+#enviar{
+    width: auto;
+    height: 7vh;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(127, 54, 196, 0.822);
+    color: #fff;
+}
+#enviar:hover{
+    border-radius: 0;
+}
+
+.lista-produto {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    border-bottom: 1px dashed rgb(0, 0, 0);
+    margin-left: 30vh;
+    margin-right: 30vh;
+    font-size: 25px;
+
+
+}
+
+.price {
+    letter-spacing: 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: black;
+    color: #fff;
+}
+
+#botao-limpar {
+    width: auto;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Karla';
+    cursor: pointer;
+    background-color: rgba(127, 54, 196, 0.822);
+    color: #fff;
+}
+#botao-limpar:hover{
+    border-radius: 0;
+}
+@media (max-width: 600px) {
+    body{
+        font-size: 20px;
+    }
+    input{
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    #enviar{
+        width: 30%;
+        height: auto;
+        display: inline-block;
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+    #botao-limpar{
+        width: 30%;
+        height: auto;
+        font-size: 21px;
+        letter-spacing: normal;
+    }
+    .dados-inseridos{
+        width: 100%;
+        display: inline;
+    }
+    .lista-produto{
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+    img{
+        width: 20px;
+    }
+
+
+}
